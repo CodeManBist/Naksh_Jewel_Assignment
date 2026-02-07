@@ -36,6 +36,23 @@ NakshJewels is a mini e-commerce module that showcases:
 - ✅ Volume management for MongoDB data persistence
 - ✅ Service dependencies configured correctly
 
+## 📸 Screenshots
+
+### Home 
+![Product Listing](screenshots/home.png)
+
+### Product Listing
+![Product Listing](screenshots/products.png)
+
+### Product Details
+![Product Details](screenshots/product.png)
+
+### Shopping Cart
+![Cart Page](screenshots/cart.png)
+
+### Mobile View
+![Mobile View](screenshots/mobile_view_products.png)
+
 ## 🏗️ Project Structure
 
 ```
