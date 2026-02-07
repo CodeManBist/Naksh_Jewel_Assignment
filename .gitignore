@@ -1,0 +1,26 @@
+# Node
+node_modules/
+
+# Environment variables (secrets)
+.env
+.env.*
+!.env.example
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Vite / React
+dist/
+.vite/
+
+# Build outputs
+build/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Docker
+mongo-data/

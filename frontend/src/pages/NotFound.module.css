@@ -1,0 +1,142 @@
+.notFound {
+  background-color: var(--dark-bg);
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+}
+
+.content {
+  text-align: center;
+  color: var(--text-light);
+  max-width: 600px;
+}
+
+.code {
+  font-size: 7rem;
+  font-weight: 900;
+  background: linear-gradient(135deg, var(--secondary-color), #74512D);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  margin: 0;
+  line-height: 1;
+}
+
+.content h2 {
+  font-size: 2.5rem;
+  margin: 1rem 0;
+}
+
+.content p {
+  font-size: 1.1rem;
+  color: var(--text-muted);
+  margin-bottom: 2.5rem;
+  line-height: 1.6;
+}
+
+.homeBtn {
+  display: inline-block;
+  background: var(--secondary-color);
+  color: var(--text-primary);
+  padding: 0.75rem 2.5rem;
+  border-radius: 4px;
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 1rem;
+  transition: all 0.3s ease;
+  margin-bottom: 2rem;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  box-shadow: 0 4px 15px rgba(212, 175, 55, 0.3);
+}
+
+.homeBtn:hover {
+  background: transparent;
+  color: var(--secondary-color);
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(212, 175, 55, 0.4);
+}
+
+.suggestions {
+  margin-top: 3rem;
+  padding-top: 2rem;
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.suggestions p {
+  color: var(--text-light);
+  margin-bottom: 1.5rem;
+  font-weight: 600;
+}
+
+.suggestions ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  gap: 1.5rem;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.suggestions li a {
+  color: var(--secondary-color);
+  text-decoration: none;
+  font-weight: 600;
+  padding: 0.5rem 1rem;
+  border: 2px solid var(--secondary-color);
+  border-radius: 4px;
+  transition: all 0.3s ease;
+}
+
+.suggestions li a:hover {
+  background: var(--secondary-color);
+  color: var(--text-primary);
+}
+
+@media (max-width: 768px) {
+  .code {
+    font-size: 4rem;
+  }
+
+  .content h2 {
+    font-size: 1.75rem;
+  }
+
+  .content p {
+    font-size: 1rem;
+  }
+
+  .homeBtn {
+    padding: 0.65rem 2rem;
+    font-size: 0.9rem;
+  }
+
+  .suggestions ul {
+    flex-direction: column;
+    gap: 1rem;
+  }
+
+  .suggestions li a {
+    width: 100%;
+  }
+}
+
+@media (max-width: 480px) {
+  .code {
+    font-size: 3rem;
+  }
+
+  .content h2 {
+    font-size: 1.5rem;
+  }
+
+  .content {
+    padding: 1rem;
+  }
+
+  .homeBtn {
+    width: 100%;
+  }
+}
